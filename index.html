@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FLORENCE'S CLASSWORK</title>
+  
+  <style>
+  *{
+    padding: 0;
+    margin-top: 0;
+    box-sizing: border-box;
+  }
+  .container{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    background-color: #f0f0f0;
+  }
+
+  .box{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+
+  .red{ background-color: red; 
+   top: 0; 
+   left: 0; 
+    }
+  .green{ background-color: green; 
+   top: 0; 
+   right: 0;
+  }
+  .blue{ background-color: blue; 
+   bottom: 0; 
+   left: 0;
+  }
+  .purple{ background-color: purple;
+   bottom: 0; 
+    right: 0;
+  }
+
+  .Grey{
+    background-color: gray;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+</style>
+</head>
+
+<body>
+<div class="container">
+  <div class="box red">Red</div>
+  <div class="box green">Green</div>
+  <div class="box blue">Blue</div>
+  <div class="box purple">Purple</div>
+  <div class="Grey">Grey</div>
+</div>
+</body>
+
+</html>
